@@ -7,12 +7,12 @@ class Sim:
     def play(self, other):
         self.happiness += 10
         other.happiness += 10
-        print(f"{self.name} и {other.name} Грають. Щастя: {self.happiness}, {other.happiness}")
+        print(f"{self.name} і {other.name} Грають. Щастя: {self.happiness}, {other.happiness}")
 
     def argue(self, other):
         self.happiness -= 10
         other.happiness -= 10
-        print(f"{self.name} и {other.name} ругаються. Щастя: {self.happiness}, {other.happiness}")
+        print(f"{self.name} і {other.name} ругаються. Щастя: {self.happiness}, {other.happiness}")
 
     def eat(self):
         self.hunger -= 10
